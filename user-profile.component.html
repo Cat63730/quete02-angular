@@ -1,0 +1,7 @@
+<img [src]="imgSrc" [alt]="imgName">
+<p>Nom : {{userName}}</p>
+<p>Prénom : {{firstName}}</p>
+<input type="text" [(ngModel)]="text">
+<p>{{text}}</p>
+<button (click)="secretMethod()">Afficher/Masquer mon âge</button>
+<p [hidden]="secret">{{age}} ans</p>
